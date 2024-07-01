@@ -1,2 +1,4 @@
 User-agent: *
 Disallow: /*.pdf$
+
+Sitemap: https://normandlubaton.dev/sitemap.xml
