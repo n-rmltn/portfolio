@@ -73,17 +73,31 @@ export const projects = [
 export const workExperience = [
     {
         id: 1,
+        title: "Software Developer Intern",
+        desc: "Spearheaded development of AI ChatBot for the company's website using Rasa and OpenAI.",
+        className: "md:col-span-2",
+        thumbnail: "/exp3.svg",
+    },
+    {
+        id: 2,
         title: "Lighting Engineer",
         desc: "Create timecoded light shows for clubs and events using TigerTouch and Resolume Arena.",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
     {
-        id: 2,
+        id: 3,
         title: "SEO Intern",
         desc: "Assisted in the development of SEO strategies for clients of WeaveAsia",
-        className: "md:col-span-2", // change to md:col-span-2
+        className: "md:col-span-2",
         thumbnail: "/exp2.svg",
+    },
+    {
+        id: 4,
+        title: "Resident Disc Jockey",
+        desc: "Held residency at multiple clubs in Kota Kinabalu, specialising in R&B, House, and Big Room.",
+        className: "md:col-span-2",
+        thumbnail: "/exp4.svg",
     },
 ];
 

@@ -3,6 +3,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { socialMedia } from "@/data";
 
 const Hero = () => {
     return (
@@ -40,7 +41,23 @@ const Hero = () => {
                         Hey! I&apos;m Normand, an aspiring developer eager to
                         grow.
                     </p>
-
+                    <div className="flex items-center md:gap-3 gap-6">
+                        {socialMedia.map((info) => (
+                            <a
+                                href={info.link}
+                                key={info.id}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300">
+                                <img
+                                    src={info.img}
+                                    alt="icons"
+                                    width={20}
+                                    height={20}
+                                />
+                            </a>
+                        ))}
+                    </div>
                     <a href="#projects">
                         <MagicButton
                             title="View my work"
