@@ -41,7 +41,7 @@ const Hero = () => {
                         Hey! I&apos;m Normand, an aspiring developer eager to
                         grow.
                     </p>
-                    <div className="flex items-center md:gap-3 gap-6">
+                    <div className="flex items-center gap-3 py-4">
                         {socialMedia.map((info) => (
                             <a
                                 href={info.link}
